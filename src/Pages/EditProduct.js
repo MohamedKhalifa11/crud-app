@@ -102,7 +102,7 @@ function EditProduct() {
             onChange={(e) =>
               setThumbnail(URL.createObjectURL(e.target.files[0]))
             }
-          />https://basic-ecommerce-delta.vercel.app/
+          />
           {thumbnail && (
             <img
               src={thumbnail}
